@@ -20,6 +20,7 @@ function generateForm(event) {
 
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
+  poemElement.innerHTML = `<div class="blink">⏳</div> Generating a poem about ${instructionInput.value}...`;
   console.log("Generating poe");
   console.log(`Prompt : ${prompt}`);
   console.log(`Context: ${context}`);

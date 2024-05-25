@@ -67,6 +67,20 @@ h1 {
 .hidden {
   display: none;
 }
+.blink {
+  display: inline;
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 a {
   color: rgb(151, 122, 3);
   text-decoration: none;
