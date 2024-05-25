@@ -1,21 +1,22 @@
 body {
   background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80%;
+  height: 600px;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/127/414/original/tempImagehs5G5K.gif?1716631261);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  margin: 120px auto;
+  margin: 80px auto 20px auto;
 }
 .box {
   background-color: rgb(240, 240, 240, 0.8);
   max-width: 90%;
 
-  height: 400px;
+  height: 500px;
 
   display: block;
   margin: 0px auto;
@@ -69,5 +70,4 @@ a {
 footer {
   text-align: center;
   color: rgb(14, 13, 13, 0.7);
-  padding: 75px 10px 3px 10px;
 }
