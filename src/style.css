@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/127/414/original/tempImagehs5G5K.gif?1716631261);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 120px auto;
+}
+.box {
+  background-color: rgb(240, 240, 240, 0.8);
+  max-width: 90%;
+  height: 400px;
+  display: block;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  color: rgb(14, 13, 13, 0.7);
+  padding-top: 60px;
+}
+.form {
+  text-align: center;
+  margin: 60px 50px 0px 50px;
+}
+.topic-text {
+  width: 70%;
+  padding: 10px 10px;
+  line-height: 1.5;
+  border-color: rgb(151, 122, 3);
+  border-style: outset;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(240, 240, 240, 0.7);
+}
+.button {
+  padding: 10px 10px;
+  border-color: rgb(151, 122, 3);
+  line-height: 1.5;
+  border-radius: 10px;
+  border-style: outset;
+
+  color: rgb(58, 58, 58);
+  background-color: rgb(240, 240, 240, 0.7);
+}
+.generated-poem-text {
+  width: 71%;
+  display: block;
+  margin: 0px auto;
+  margin-top: 20px;
+  padding: 15px 20px 40px 20px;
+  border-color: white;
+  border-left: 2px solid rgb(151, 122, 3);
+  background-color: rgb(240, 240, 240, 0.7);
+
+  color: (14, 13, 13, 0.8);
+}
+a {
+  color: rgb(151, 122, 3);
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  color: rgb(14, 13, 13, 0.7);
+  padding: 80px 10px 3px 10px;
+}
