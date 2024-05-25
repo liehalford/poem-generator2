@@ -18,6 +18,8 @@ function generateForm(event) {
   let prompt = `Generate an English poem about ${instructionInput.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let poemElement = document.querySelector("#poem");
+  poemElement.classList.remove("hidden");
   console.log("Generating poe");
   console.log(`Prompt : ${prompt}`);
   console.log(`Context: ${context}`);
